@@ -3,6 +3,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: serif;
 }
 
 .header{
@@ -38,6 +39,9 @@ body{
     background-color:#1F2937;
     color: rgba(255, 255, 255, 0.754);
     justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
     
 }
 
@@ -85,4 +89,84 @@ body{
 }
 .title-button button:hover{
     background-color: rgb(88, 178, 242);
+}
+
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.information h2{
+    font-size: 36px;
+    font-weight: bolder;
+    counter-reset: #1f2937;
+}
+
+.information .information-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.information .information-container .info{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information .information-container .info .image{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+    gap: 20px;
+    border-width: 8px;   
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 36px;
+
+}
+.quote h1{
+    /*margin - top ,right, bottom, left*/
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-size: 36px;
+    
+}
+.quote h2{
+    margin-left: 120px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 36px;
+
+}
+
+.footer{
+    margin: 0;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

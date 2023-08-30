@@ -7,7 +7,7 @@ body{
 
 .header{
     
-    border-style: solid;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,16 +16,73 @@ body{
 }
 
 .header h1{
-    margin-left: 60px;
+    margin-left: 200px;
     color: white;
+    font-size: 24px;
 }
 .header-links{
     display: flex;
     gap: 20px;
-    margin-right: 60px;
+    margin-right: 200px;
 }
 .header-links a{
     text-decoration: none;
     color:white;
     font-size: 18px; 
+}
+
+
+
+.title{
+    display: flex;
+    background-color:#1F2937;
+    color: rgba(255, 255, 255, 0.754);
+    justify-content: space-between;
+    
+}
+
+
+.container-left{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    font-size: 18px;
+
+}
+.container-right{
+    width: 50vh;
+    display: flex;
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+
+}
+
+.container-left, .container-right{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container-left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+.title-button button{
+    background-color: rgb(24, 108, 226);
+    border-radius: 8px;
+    font-size: 20px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    width: 120px;   
+}
+.title-button button:hover{
+    background-color: rgb(88, 178, 242);
 }

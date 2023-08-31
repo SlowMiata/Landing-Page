@@ -161,6 +161,59 @@ body{
 
 }
 
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .textbox{
+    display: flex;
+    width: 1000vh;
+    height: 20vh;
+    background-color: rgb(24, 108, 226);
+    margin: 100px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    gap: 500px;
+}
+.call-to-action .textbox .action{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+.action h1{
+    margin-bottom: 0;
+}
+
+.call-to-action .textbox .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.call-to-action .textbox .buttons button{
+    background-color: rgb(24, 108, 226);
+    border-radius: 8px;
+    font-size: 20px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    width: 120px;   
+    border-color: white;
+}
+
+.textbox .buttons button:hover{
+    background-color: rgb(87, 168, 222);
+    cursor: pointer;
+}
+
+
 .footer{
     margin: 0;
     background-color: #1F2937;
